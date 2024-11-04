@@ -1,0 +1,127 @@
+.kanban-card {
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: white;
+    width: 320px;
+  }
+  
+  .kanban-card:hover {
+    transform: scale(1.03);
+  }
+  
+  .kanban-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+  }
+  
+  .kanban-card-id {
+    font-weight: 500;
+    color: #a0a0a0;
+    font-size: 12px;
+  }
+  
+  .kanban-avatar {
+    position: relative;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .kanban-avatar-img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .kanban-avatar-status {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0.4rem;
+    height: 0.4rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+  }
+
+  .kanban-status-title-wrapper {
+    display: flex;
+    align-items: start;
+    margin-top: 4px;
+  }
+  
+  /* Status Styling */
+  .kanban-card-ticket-status {
+    color: #007bff;
+    font-weight: bold;
+    padding-right: 4px;
+    line-height: 1;
+  }
+  
+  .kanban-card-title { 
+    display: inline-block;
+    margin-block: 0;
+    color: #2c2c2c;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  /* Priority Icon Styling */
+  .kanban-priority-icon img {
+    width: 16px;
+    height: 16px;
+  }
+  
+  /* Kanban Card Labels */
+  .kanban-card-labels {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  .kanban-priority-icon {
+    display: flex;
+    align-items: center;
+    padding: 3px 6px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .kanban-tag {
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #bfc1c2;
+  }
+
+  .kanban-tag .kanban-tag-circle {
+    display: inline-block;
+    background-color: #bfc1c2;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    margin-right: 3px;
+  }
+  
+  /* Avatar Status Colors */
+  .bg-success {
+    background-color: #28a745;
+  }
+  
+  .bg-danger {
+    background-color: #dc3545;
+  }
+  
+  .bg-warning {
+    background-color: #ffc107;
+  }
+  
+  .bg-secondary {
+    background-color: #6c757d;
+  }
+  

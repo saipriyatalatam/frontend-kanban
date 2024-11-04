@@ -1,0 +1,74 @@
+.display-filter {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-toggle {
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    outline: none;
+    border: 1px solid rgb(195, 195, 195);
+    border-radius: 4px;
+  }
+  
+  .dropdown-title-icon{
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    font-size: 16px;
+  }
+  
+  .dropdown-menu {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 1;
+    margin-top: 10px;
+    padding: 15px 20px 10px 20px;
+    width: 275px;
+  }
+  
+  .dropdown-item {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* width: 100%; */
+    justify-content: space-between;
+  }
+  
+  .dropdown-item label {
+    margin-right: 10px;
+    font-weight: 600;
+  }
+  
+  .dropdown-item select { 
+    padding: 5px 50px 5px 5px;
+    border-radius: 5px;
+    width: 120px;
+    font-size: 15px;
+    background: url('../../../public/assets/down.svg') no-repeat right 5px center;
+    background-size: 20px 20px;
+    border: 1px solid #ccc;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .dropdown-item select:focus{
+    outline: none;
+  }
